@@ -1,0 +1,191 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mastek</groupId>
+  <artifactId>TestDNA</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>TestDNA</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.biojava/core -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>core</artifactId>
+    <version>1.9.2</version>
+</dependency>
+    
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.biojava/biojava-core -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-core</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.biojava/biojava-structure -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-structure</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.biojava/sequencing -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>sequencing</artifactId>
+    <version>1.9.2</version>
+</dependency>
+    
+    
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-alignment -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-alignment</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/alignment -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>alignment</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava.thirdparty/forester -->
+<dependency>
+    <groupId>org.biojava.thirdparty</groupId>
+    <artifactId>forester</artifactId>
+    <version>1.038</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/jcolorbrewer -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>jcolorbrewer</artifactId>
+    <version>5.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/bytecode -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>bytecode</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-phylo -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-phylo</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/phylo -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>phylo</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/gui -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>gui</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/blast -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>blast</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biosql -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biosql</artifactId>
+    <version>1.9.2</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-structure-gui -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-structure-gui</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-sequencing -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-sequencing</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-protein-disorder -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-protein-disorder</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-genome -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-genome</artifactId>
+    <version>5.0.0-alpha4</version>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava-legacy -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava-legacy</artifactId>
+    <version>1.9.2</version>
+    <type>pom</type>
+</dependency>
+       
+       
+       <!-- https://mvnrepository.com/artifact/org.biojava/biojava -->
+<dependency>
+    <groupId>org.biojava</groupId>
+    <artifactId>biojava</artifactId>
+    <version>5.0.0-alpha4</version>
+    <type>pom</type>
+</dependency>
+       
+       
+    
+  </dependencies>
+</project>
